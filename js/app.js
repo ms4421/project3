@@ -1,4 +1,5 @@
 var count = 0;
+var colisionCount = 0;
 // Enemies our player must avoid
 var Enemy = function (x, y) {
     // Variables applied to each of our instances go here,
@@ -29,7 +30,9 @@ Enemy.prototype.update = function (dt) {
         }
     //if there is a collision reset the player to initial place
     if(isCollision(player.x, player.y, this.x, this.y)) {
-        alert ("collision");
+        //alert ("collision");
+        colisionCount++;
+        document.getElementById('collision').innerHTML = colisionCount;
         player.x = 202;
         player.y = 375;
         }    
@@ -79,7 +82,7 @@ Player.prototype.handleInput = function (key) {
             this.x = this.x +101;
         }
     }else if(key == 'up'){
-        if(this.y <75){
+        if(this.y <83){
             count++;
             //dynamically set the score to new count value
            document.getElementById('score').innerHTML = count;
