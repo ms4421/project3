@@ -12,5 +12,11 @@ I used one methode that I found online for the random number here is the website
 For y locations used the random number generator to randomly set it to 75 or 150 or 225 and that is how the enemy will appear.
 
 the collision was the hardest part and just tried my best to determine when it happens. Since I set y locations by adding/subtracting same numbers, it would hit playery=enemyY and for x used a diff value based on 101 rule of each block.
-
+Instruction on how to play the game:
+ 1. there is one player and many enemy bugs. 
+ 2. the player can move one step up down left and right using the arrows on keyboard.
+ 3. if the player and enemy gets to same block, there is a collision and the collision count will go up and the player's postion will be set to initail position.
+ 4. if the player is on the top brick without any collisions, then he/sh scores 1 point and the player's positions changes to the initail starting position
+ 5. there are 2 possible results from each game collision or win and the coutn will increase for each as the game gose on.
+ 6. if you want to start the game from score/collision 0 then you have to refresh the page.
 
