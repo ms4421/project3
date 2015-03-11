@@ -7,6 +7,7 @@ This game had lots of numbers involved and used the 101 rule for each block's x 
 
 the collision was the hardest part and just tried my best to determine when it happens. Since I set y locations by adding/subtracting same numbers, it would hit playery=enemyY and for x used a diff value based on 101 rule of each block. Instruction on how to play the game:
 
+To start running the game you have to click the index.html file and open it in browser.
 there is one player and many enemy bugs.
 the player can move one step up down left and right using the arrows on keyboard.
 if the player and enemy gets to same block, there is a collision and the collision count will go up and the player's postion will be set to initail position.
