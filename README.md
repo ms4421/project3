@@ -13,6 +13,7 @@ For y locations used the random number generator to randomly set it to 75 or 150
 
 the collision was the hardest part and just tried my best to determine when it happens. Since I set y locations by adding/subtracting same numbers, it would hit playery=enemyY and for x used a diff value based on 101 rule of each block.
 Instruction on how to play the game:
+
  1. there is one player and many enemy bugs. 
  2. the player can move one step up down left and right using the arrows on keyboard.
  3. if the player and enemy gets to same block, there is a collision and the collision count will go up and the player's postion will be set to initail position.
